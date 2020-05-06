@@ -1,0 +1,9 @@
+package Adapter;
+
+public class client {
+	public static void main(String[] args) {
+        System.out.println("ÀàÊÊÅäÆ÷Ä£Ê½²âÊÔ£º");
+        Target target = new ClassAdapter();
+        target.request();
+	}
+}
